@@ -26,7 +26,7 @@
    
 2. **Log In & Access Your Dashboard:**  
    Use your credentials to log in and access your user-friendly dashboard:
-   ![Dashboard](https://github.com/emphay/masite-portfolio-website-builder/blob/main/src/img/sitedesign.png)
+   ![Dashboard](https://github.com/emphay/masite/blob/main/public/img/sitedesign.png)
 
 3. **Start Customizing:**  
    From the dashboard, choose a template, add your content, and customize it to fit your unique style. Whether you're an artist, developer, or entrepreneur, Masite has the perfect tools to showcase your work.
