@@ -32,6 +32,7 @@ const { Sider, Content } = Layout;
 
 export default function Home() {
   const { data: session, status } = useSession();
+  const router = useRouter();
 
   const [designData, setDesignData] = useState<SiteDesignConfig | undefined>(undefined);
   const [navData, setNavData] = useState<NavConfig | undefined>(undefined);
@@ -205,7 +206,7 @@ export default function Home() {
       contactValue = `https://t.me/${navData.contactValue}`;
       break;
   }
-  const router = useRouter();
+  
   const menu = (
     <Menu>
       <Menu.Item key="sitedesign" onClick={() => router.push("/site/sitedesign")}>
